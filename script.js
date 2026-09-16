@@ -2,7 +2,7 @@ function indexOfIgnoreCase(s1, s2) {
   if (s1 === null || s1 === undefined || s2 === null || s2 === undefined) {
     return -1;
   }
-  return str.toLowerCase().indexOf(subStr.toLowerCase());
+  return s1.toLowerCase().indexOf(s2.toLowerCase());
 }
 
 // Please do not change the code below
